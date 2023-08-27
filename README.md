@@ -2,28 +2,28 @@
 
 ## TODO:
 
-- [ ]  HP Attribute
-- [ ]  AI Activation trigger
-- [ ]  Take damage
-    - [ ]  If damage is received, begin “Pursuit”.
-    - [ ]  Die
-- [ ]  Character
-    - [ ]  Action Sounds
-        - [ ]  Shoots
-        - [ ]  Steps
-    - [ ]  Dealing damage
-- [ ]  AI
-    - [ ]  FOV
-        - [ ]  Cone radius: 3000
-    - [ ]  Hear sounds
-        - [ ]  Circle radius: 5000
-    - [ ]  States
-        - [ ]  Patrol
-            - [ ]  Initial point
-            - [ ]  Circle radius: 2000
-        - [ ]  Exploring
-            - [ ]  Start exploring the heard sound in the range of 1000
-            - [ ]  If no player, go to Patrol state
-        - [ ]  Pursuit
-            - [ ]  Move to target pos
-            - [ ]  If target_pos > FOV+500, move to the last target. If there is no target, return to the "Patrol" state.
+- [x]  HP Attribute
+- [x]  AI Activation trigger
+- [x]  Take damage
+    - [x]  If damage is received, begin “Pursuit”.
+    - [x]  Die
+- [x]  Character
+    - [x]  Action Sounds
+        - [x]  Shoots
+        - [x]  Steps
+    - [x]  Dealing damage
+- [x]  AI
+    - [x]  FOV
+        - [x]  Cone radius: 3000
+    - [x]  Hear sounds
+        - [x]  Circle radius: 5000
+    - [x]  States
+        - [x]  Patrol
+            - [x]  Initial point
+            - [x]  Circle radius: 2000
+        - [x]  Exploring
+            - [x]  Start exploring the heard sound in the range of 1000
+            - [x]  If no player, go to Patrol state
+        - [x]  Pursuit
+            - [x]  Move to target pos
+            - [x]  If target_pos > FOV+500, move to the last target. If there is no target, return to the "Patrol" state.
